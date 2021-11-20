@@ -36,8 +36,8 @@ class SignInPage extends StatelessWidget {
               child: Center(
                 child: Column(
                   children: [
-                    Image.asset('images/logo.png'),
-                    SizedBox(height: 30.0), //logo
+                     SizedBox(height: 30.0), 
+                    Image.asset('images/logo.png'), //logo                   
                     LoginDetails(), //the widget that contains the whole login in or sign up details
                   ],
                 ),
