@@ -35,7 +35,6 @@ class SignInPage extends StatelessWidget {
             SingleChildScrollView(
               child: Center(
                 child: Column(
-                  //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Image.asset('images/logo.png'),
                     SizedBox(height: 30.0), //logo
@@ -64,7 +63,7 @@ class LoginDetails extends StatelessWidget {
             color: Colors.grey.withOpacity(0.5),
             spreadRadius: 5,
             blurRadius: 5,
-            offset: Offset(0, 3), // changes position of shadow
+            offset: Offset(0, 3),
           ),
         ],
         borderRadius: BorderRadius.all(Radius.circular(20.0)),
@@ -98,7 +97,6 @@ class SignUpBar extends StatelessWidget {
             child: TextButton(
               child: Text("Log In", style: TextStyle(color: Colors.white)),
               style: ButtonStyle(
-                //minimumSize: MaterialStateProperty.all() ,
                 padding: MaterialStateProperty.all(
                   EdgeInsets.fromLTRB(40, 1, 40, 1),
                 ),
@@ -163,7 +161,6 @@ class EmailBar extends StatelessWidget {
 
 class LoginButton extends StatelessWidget {
   //Login Button
-
   @override
   Widget build(BuildContext context) {
     return Container(
