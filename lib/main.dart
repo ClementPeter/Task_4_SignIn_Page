@@ -3,7 +3,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:task4_signin/screens/signUp.dart';
 import 'components/continueDivider.dart';
 import 'components/socialIcons.dart';
-//import 'signup.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,12 +19,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light().copyWith(
         primaryColor: Colors.orange,
       ),
-      home: SignUpPage(),
+      home: MainPage(),
     );
   }
 }
 
-class SignUpPage extends StatelessWidget {
+class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,7 +42,7 @@ class SignUpPage extends StatelessWidget {
               child: Center(
                 child: Column(
                   children: [
-                    LoginDetails(), //the widget that contains the whole login in or sign up details
+                    LoginDetails(),
                   ],
                 ),
               ),
