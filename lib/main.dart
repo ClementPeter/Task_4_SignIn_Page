@@ -43,8 +43,6 @@ class SignUpPage extends StatelessWidget {
               child: Center(
                 child: Column(
                   children: [
-                    SizedBox(height: 30.0),
-                    Image.asset('images/logo.png'),
                     LoginDetails(), //the widget that contains the whole login in or sign up details
                   ],
                 ),
@@ -77,7 +75,7 @@ class LoginDetails extends StatelessWidget {
       ),
       child: Column(
         children: [
-          SignUp(),          
+          SignUp(),
           ContinueDivider(),
           SocialIcons(),
         ],
