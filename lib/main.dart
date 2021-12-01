@@ -4,6 +4,7 @@ import 'package:task4_signin/screens/signUp.dart';
 import 'components/continueDivider.dart';
 import 'components/socialIcons.dart';
 
+//Sign In / Sign Up with Firebase
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();

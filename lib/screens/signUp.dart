@@ -59,8 +59,12 @@ class _SignUpBarState extends State<SignUp> {
                         MaterialStateProperty.all<Color>(Colors.orange),
                   ),
                   onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => SignInPage()));
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SignInPage(),
+                      ),
+                    );
                   },
                 ),
               ),
@@ -119,8 +123,12 @@ class _SignUpBarState extends State<SignUp> {
                               email: email, password: password);
                       if (newUser != null) {
                         print('New Page');
-                        Navigator.push(context,
-                            MaterialPageRoute(builder: (context) => NewPage()));
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => NewPage(),
+                          ),
+                        );
                       }
                     } catch (e) {
                       print(e);
