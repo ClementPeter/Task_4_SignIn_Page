@@ -4,7 +4,7 @@ class NewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //backgroundColor: Colors.orange,
+      
       body: SafeArea(
         child: Container(
           child: Column(
@@ -16,8 +16,7 @@ class NewPage extends StatelessWidget {
                 onPressed: () {
                   Navigator.pop(context);
                 },
-              )
-        
+              )        
             ],
           ),
         ),

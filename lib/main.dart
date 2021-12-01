@@ -17,9 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Abbey Foods',
-      theme: ThemeData.light().copyWith(
-        primaryColor: Colors.orange,
-      ),
+      theme: ThemeData.light().copyWith(primaryColor: Colors.orange),
       home: MainPage(),
     );
   }

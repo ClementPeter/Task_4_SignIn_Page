@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-//import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
 import '../components/continueDivider.dart';
 import '../components/socialIcons.dart';
+
+//User Sign-In Page
 
 class SignInPage extends StatelessWidget {
   @override
@@ -59,8 +59,7 @@ class LoginDetails extends StatelessWidget {
         children: [
           SignIn(),
           ContinueDivider(),
-          SocialIcons()
-          //EmailBar(),
+          SocialIcons(),
         ],
       ),
     );

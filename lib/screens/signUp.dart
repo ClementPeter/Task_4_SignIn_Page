@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-//import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:task4_signin/screens/signIn.dart';
-
 import 'newPage.dart';
 
 //Sign Up Page...Contains Login and Signup Switcher,Email and Password Textfield and Login Button
@@ -21,7 +19,7 @@ class _SignUpBarState extends State<SignUp> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        //Sign Up /SignIn Switcher Feature
+        //Sign Up / SignIn Switcher Feature
         Container(
           height: 38.0,
           decoration: BoxDecoration(
